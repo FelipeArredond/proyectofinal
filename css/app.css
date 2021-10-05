@@ -1,0 +1,472 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+/* Body styles */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 2px #EDEDED;
+    background-color: white;
+}
+
+header .container {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    border-right: solid white 2px;
+}
+
+header .container .content-img {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .container .content-img img {
+    width: 100%;
+}
+
+header .container .content-nav {
+    width: 60%;
+}
+
+header .container .content-nav nav {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header .container .content-nav nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 0px;
+}
+
+header .container .content-nav nav ul li {
+    padding: 5px 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+header .container .content-nav nav ul li a {
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+header .container .content-logs {
+    width: 20%;
+    display: flex;
+}
+
+header .container .content-logs div {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+header .container .content-logs div:nth-child(1) {
+    display: flex;
+    justify-content: end;
+    margin-right: 3px;
+}
+
+header .container .content-logs div:nth-child(2) {
+    justify-content: start;
+    display: flex;
+    margin-left: 3px;
+}
+
+header .container .content-logs div a svg {
+    width: 1.8rem;
+    height: 1.8rem;
+}
+
+
+/* End Header Styles */
+
+
+/* Styles index*/
+
+footer {
+    border-top: solid rgb(58, 58, 58) 2px;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+footer div span {
+    width: 100%;
+    text-align: center;
+    font-size: 1.2em;
+    color: white;
+}
+
+
+/* End Styles Footer */
+
+
+/*My styles*/
+
+.container {
+    width: 80%;
+    height: 100%;
+    margin-left: 10%;
+    background-color: whitesmoke;
+    border-right: solid rgb(58, 58, 58) 2px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.p1 {
+    display: flex;
+    align-items: center;
+}
+
+.p1_txt {
+    margin-left: 1.8rem;
+}
+
+.p1_img {
+    margin: 5px;
+    border: solid black 2px;
+}
+
+.p1_txt h1 {
+    text-align: center;
+}
+
+.p2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.p2_txt {
+    margin-left: 1.8rem;
+    padding-top: 15px;
+}
+
+.p2_img {
+    margin: 5px;
+    border: solid black 2px;
+    display: flex;
+}
+
+.p2_txt h1 {
+    text-align: center;
+}
+
+.p3 {
+    display: flex;
+}
+
+.p3_txt_uno {
+    border-right: solid black 1px;
+}
+
+.p3_txt_uno h2 {
+    text-align: center;
+}
+
+.p3_txt_uno p {
+    text-align: center;
+    margin: 5px;
+}
+
+.p3_txt_dos {
+    border-left: solid black 1px;
+}
+
+.p3_txt_dos h2 {
+    text-align: center;
+}
+
+.p3_txt_dos p {
+    text-align: center;
+    margin: 5px;
+}
+
+.p4 {
+    background-image: url(https://www.mundomotero.com/wp-content/uploads/2020/04/KTM_RC_390_2022_04.jpg);
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid black 2px;
+}
+
+.p4 h1 {
+    font-size: 100px;
+    font-family: 'Bebas Neue', cursive;
+    border: solid orangered 3px;
+    color: white;
+    background-color: black;
+    width: 50%;
+    text-align: center;
+}
+
+
+/*End index styles*/
+
+
+/*Aboutus Styles*/
+
+.div_main {
+    width: 100%;
+    background-image: url(https://www.gp-inside.com/layout/uploads/2020/08/jorge-martin-spielberg-moto2-2020.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -75px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1_aboutus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_name {
+    font-family: 'Bebas Neue', cursive;
+    border: solid white 4px;
+    border-left: none;
+    border-right: none;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 80%;
+    width: 100%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.btn-1 {
+    margin-right: 500px;
+    border: solid white 2px;
+    width: 75px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.btn-2 {
+    border: solid white 2px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.btn-1:hover {
+    margin-right: 500px;
+    border: solid white 2px;
+    width: 75px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 40%;
+}
+
+.btn-2:hover {
+    border: solid white 2px;
+    width: 100px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 40%;
+}
+
+
+/*End aboutus styles*/
+
+
+/*Services Styles*/
+
+.main {
+    width: 100%;
+}
+
+.bloque-1 {
+    width: 100%;
+    display: flex;
+}
+
+.mini_bloque {
+    width: 100%;
+    display: grid;
+}
+
+.perromain {
+    width: 60%;
+    border: solid orangered 2px;
+    border-bottom: solid orangered 2px;
+}
+
+.perrouno {
+    height: 99%;
+    width: 100%;
+    border: solid orangered 2px;
+}
+
+.perrodos {
+    height: 98.7%;
+    width: 100%;
+    border: solid orangered 2px;
+}
+
+.titulo_main {
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 100px;
+    background-image: url(https://images.pexels.com/photos/1631677/pexels-photo-1631677.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+}
+
+.enlce {
+    width: 300px;
+    height: 300px;
+    color: white;
+}
+
+.icon {
+    font-size: 300px;
+    color: white;
+    border: solid orangered 3px;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    transition: .3s ease all;
+    cursor: pointer;
+}
+
+.icon:hover {
+    font-size: 300px;
+    color: black;
+    background-color: white;
+    border: solid orangered 3px;
+    margin-left: 37%;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+
+/*End services */
+
+
+/*Contact styles*/
+
+.div_contact {
+    width: 100%;
+    background-image: url(https://www.elgrafico.com.ar/media/cache/pub_news_details_large/media/i/55/4f/554fafa5719c9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: -75px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+}
+
+.p1_aboutus {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.main_name {
+    font-family: 'Bebas Neue', cursive;
+    border: solid white 4px;
+    border-left: none;
+    border-right: none;
+    font-size: 100px;
+    text-align: center;
+    color: white;
+    background-color: black;
+    opacity: 80%;
+    width: 100%;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+}
+
+.btn-contact-1 {
+    margin-right: 500px;
+    border: solid white 2px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.btn-contact-2 {
+    border: solid white 2px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+}
+
+.btn-contact-1:hover {
+    margin-right: 500px;
+    border: solid white 2px;
+    width: 120px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 40%;
+}
+
+.btn-contact-2:hover {
+    border: solid white 2px;
+    width: 150px;
+    text-align: center;
+    border-radius: 8px;
+    background-color: black;
+    opacity: 40%;
+}
+
+
+/*End contact*/
+
+
+/*Personal Styles*/
+
+
+/*End personal*/
